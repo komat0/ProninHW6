@@ -12,13 +12,11 @@ public class Plate {
     }
 
     public void addFullness(int addFood) {
-        int newFood = fullness + addFood;
-        fullness = newFood;
+        fullness = fullness + addFood;
     }
 
     public void removeFullness(int removeFood) {
-        int newFood = fullness - removeFood;
-        fullness = newFood;
+        fullness = fullness - removeFood;
     }
 
     public void getPlateInfo() {
